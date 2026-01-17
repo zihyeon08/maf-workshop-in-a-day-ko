@@ -34,7 +34,7 @@
 
 ```text
 save-points/
-└── step-03/
+└── step-05/
     └── start/
         ├── .vscode/
         │   ├── mcp.http.local.json
@@ -342,6 +342,11 @@ save-points/
 1. 오른쪽 익스텐션 아이콘을 클릭한 후 MCP 서버 섹션을 보면 `todo-list` MCP 서버가 보입니다. 톱니바퀴 모양을 클릭한 후 `Stop Server` 메뉴를 클릭해서 MCP 서버를 종료합니다.
 
    ![GitHub Copilot - MCP 서버 종료](./images/step-05-image-05.png)
+
+1. 아래 명령어를 실행시켜 방금 배포한 애플리케이션을 모두 삭제합니다.
+
+    ```bash
+    azd down --purge --force
 
 ## 완성본 결과 확인
 

@@ -32,7 +32,7 @@
 
 ```text
 save-points/
-└── step-03/
+└── step-06/
     └── start/
         ├── MafWorkshop.sln
         ├── MafWorkshop.Agent/
@@ -351,6 +351,11 @@ save-points/
 
    ![애플리케이션 실행 결과](./images/step-06-image-06.png)
 
+1. 아래 명령어를 실행시켜 방금 배포한 애플리케이션을 모두 삭제합니다.
+
+    ```bash
+    azd down --purge --force
+
 ## 완성본 결과 확인
 
 이 세션의 완성본은 `$REPOSITORY_ROOT/save-points/step-06/complete`에서 확인할 수 있습니다.
@@ -383,4 +388,4 @@ save-points/
 
 축하합니다! 백엔드 에이전트에 MCP 서버를 직접 연동해 봤습니다. 이제 다음 단계로 이동하세요!
 
-👈 [05: MCP 서버 개발하기](./05-mcp-server-development.md) | [07: Copilot Studio에서 에이전트 개발하고 MCP 서버 연동하기](./07-mcp-server-integration-with-copilot-studio.md) 👉
+👈 [05: MCP 서버 개발하기](./05-mcp-server-development.md) | [07: Copilot Studio에서 에이전트 개발하고 MCP 서버 연동하기 **(선택)**](./07-mcp-server-integration-with-copilot-studio.md) 👉
