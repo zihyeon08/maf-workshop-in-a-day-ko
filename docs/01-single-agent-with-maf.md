@@ -8,6 +8,12 @@
 - Microsoft Agent Framework에 단일 에이전트를 붙일 수 있습니다.
 - Microsoft Agent Framework에서 동작하는 에이전트의 흐름을 시각화할 수 있습니다.
 
+## 아키텍처
+
+이 세션이 끝나고 나면 아래와 같은 시스템이 만들어집니다.
+
+![세션 아키텍처](./images/step-01-architecture.png)
+
 ## 사전 준비 사항
 
 이전 [00: 개발 환경 설정하기](./00-setup.md)에서 개발 환경을 모두 설정한 상태라고 가정합니다.

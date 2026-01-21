@@ -13,6 +13,12 @@
 - [GitHub 개인 계정 (무료)](http://github.com/signup) 👉 업무용 계정일 경우 회사 정책에 따라 오작동할 수가 있으니 반드시 개인 계정으로 준비하세요.
 - [Microsoft Copilot Studio 평가판 구독](https://go.microsoft.com/fwlink/?LinkId=2107702)
 
+## 전체 아키텍처
+
+이 워크샵을 끝마치면 아래와 같은 시스템이 만들어집니다.
+
+![전체 시스템 아키텍처](./assets/architecture.png)
+
 ## 시작하기
 
 이 워크샵은 아래와 같은 내용으로 진행합니다. 모두 자기주도학습의 형태로 진행할 수 있으므로, 워크샵 시간에 다 마치지 못하더라도 끝까지 따라해 보세요.
